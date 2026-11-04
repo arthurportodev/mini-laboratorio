@@ -9,8 +9,9 @@ function normalizarEmail(email) {
 
 }
 
-formulario.addeventListener("submit", async function (evento) {
+formulario.addEventListener("submit", async function (evento) {
     evento.preventDefault();
+    
 
     const nome = document.getElementById("nome").value;
     const email = document.getElementById("email").value;
